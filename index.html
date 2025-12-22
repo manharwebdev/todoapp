@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1: Todo App</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        input { padding: 10px; width: 200px; }
+        button { padding: 10px; cursor: pointer; }
+        ul { list-style: none; padding: 0; }
+        li { background: #f4f4f4; margin: 5px 0; padding: 10px; display: flex; justify-content: space-between; }
+        .delete-btn { color: red; cursor: pointer; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>My Todo List</h1>
+    <input type="text" id="todoInput" placeholder="Add a new task...">
+    <button onclick="addTodo()">Add Task</button>
+    
+    <ul id="todoList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
